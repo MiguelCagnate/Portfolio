@@ -1,7 +1,12 @@
 import React, { useState } from "react";
-import { AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject } from "react-icons/ai";
-import { BsPerson} from "react-icons/bs"
-import { GrProjects } from "react-icons/gr"; 
+import {
+  AiOutlineHome,
+  AiOutlineMail,
+  AiOutlineMenu,
+  AiOutlineProject,
+} from "react-icons/ai";
+import { BsPerson } from "react-icons/bs";
+import { GrProjects } from "react-icons/gr";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -54,8 +59,42 @@ const Sidenav = () => {
           </a>
         </div>
       ) : (
-        <div></div>
+        " "
       )}
+      <div className="md:block hidden fixed top-[25%] z-10">
+        <div className="flex flex-col">
+          <a
+            href="#main"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-3 p-2 cursor-pointer hover:scale-110 duration-200"
+          >
+            <AiOutlineHome size={20} />
+          </a>
+          <a
+            href="#projects"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-3 p-2 cursor-pointer hover:scale-110 duration-200"
+          >
+            <GrProjects size={20} />
+          </a>
+          <a
+            href="#work"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-3 p-2 cursor-pointer hover:scale-110 duration-200"
+          >
+            <AiOutlineProject size={20} />
+          </a>
+          <a
+            href="#contact"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-3 p-2 cursor-pointer hover:scale-110 duration-200"
+          >
+            <BsPerson size={20} />
+          </a>
+          <a
+            href="#mail"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-3 p-2 cursor-pointer hover:scale-110 duration-200"
+          >
+            <AiOutlineMail size={20} />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
