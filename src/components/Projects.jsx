@@ -1,4 +1,5 @@
-import React from "react";React 
+import React from "react";
+React;
 import ProjectItem from "./ProjectItem";
 import uno from "../assets/uno.jpg";
 import dos from "../assets/dos.jpg";
@@ -17,7 +18,7 @@ const Projects = () => {
         tincidunt vel sem ut molestie. Ut a quam elit. Pellentesque elit mi,
         malesuada vitae.
       </p>
-      <div className="grid sm:grid-cols-2 gap-12">
+      <div className="grid sm:grid-cols-2 gap-7">
         <ProjectItem img={uno} title="Top Project" />
         <ProjectItem img={dos} title="Burger App" />
         <ProjectItem img={tres} title="Migramix Website" />
