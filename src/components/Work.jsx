@@ -1,4 +1,4 @@
-import React from "react";
+
 import WorkItem from "./Workitem";
 
 const data = [
@@ -47,6 +47,5 @@ const Work = () => {
     </div>
   );
 };
-
 
 export default Work;
