@@ -1,4 +1,4 @@
-import WorkItem from "./Workitem";
+import WorkItem from "./WorkItem";
 
 const data = [
   {
