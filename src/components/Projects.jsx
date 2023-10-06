@@ -18,11 +18,11 @@ const Projects = () => {
         tincidunt vel sem ut molestie. Ut a quam elit. Pellentesque elit mi,
         malesuada vitae.
       </p>
-      <div className="grid sm:grid-cols-2 gap-7">
-        <ProjectItem img={uno} title="Top Project" />
+      <div className="grid sm:grid-cols-2 gap-6">
         <ProjectItem img={dos} title="Burger App" />
-        <ProjectItem img={tres} title="Migramix Website" />
+        <ProjectItem img={uno} title="Mi Pueblito App" />       
         <ProjectItem img={cuatro} title="Food Collab App" />
+        <ProjectItem img={tres} title="Migramix Website" />
       </div>
     </div>
   );
