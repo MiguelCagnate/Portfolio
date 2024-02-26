@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const ProjectItem = ({ img, title }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
@@ -19,6 +20,11 @@ const ProjectItem = ({ img, title }) => {
       </div>
     </div>
   );
+};
+
+ProjectItem.propTypes = {
+  img: PropTypes.string.isRequired, 
+  title: PropTypes.string.isRequired,
 };
 
 export default ProjectItem;

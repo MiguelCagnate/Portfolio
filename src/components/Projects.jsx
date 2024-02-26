@@ -1,5 +1,3 @@
-import React from "react";
-React;
 import ProjectItem from "./ProjectItem";
 import uno from "../assets/uno.jpg";
 import dos from "../assets/dos.jpg";
