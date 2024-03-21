@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover scale-x-[-1]"
+        className="w-full h-screen object-cover scale-x-[-1] image-rendering={pixelated}"
         src={whitebg}
         alt="white background"
       />
