@@ -16,11 +16,23 @@ const Projects = () => {
         tincidunt vel sem ut molestie. Ut a quam elit. Pellentesque elit mi,
         malesuada vitae.
       </p>
-      <div className="grid sm:grid-cols-2 gap-5 image-rendering={pixelated}">
-        <ProjectItem img={dos} title="Burger App" />
-        <ProjectItem img={tres} title="Migramix Website" />
-        <ProjectItem img={cuatro} title="Food Collab App" />
-        <ProjectItem img={uno} title="Mi Pueblito App" />
+      <div className="grid sm:grid-cols-2 gap-6 image-rendering={pixelated}">
+        <ProjectItem
+          img={dos}
+          title="Burger Landing Page"
+          software="HTML - CSS"
+        />
+        <ProjectItem
+          img={tres}
+          title="Migramix Website"
+          software="REACT JS - VITE - NEXT JS - TAILWIND"
+        />
+        <ProjectItem
+          img={cuatro}
+          title="Javascript Quizz"
+          software="REACT JS - VITE - ZUSTAND - TAILWIND"
+        />
+        <ProjectItem img={uno} title="Mi Pueblito App" software="REACT JS"/>
       </div>
     </div>
   );
