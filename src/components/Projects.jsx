@@ -20,25 +20,25 @@ const Projects = () => {
         <ProjectItem
           img={dos}
           title="Burger Landing Page"
-          software="HTML - CSS"
+          software="Html - Css"
           url="https://bestburguersbarcelona.netlify.app/"
         />
         <ProjectItem
           img={tres}
           title="Migramix Website"
-          software="REACT JS - VITE - NEXT JS - TAILWIND"
+          software="ReactJS - Vite - NextJS - Tailwind"
           url="https://migramix.migracode.org/"
         />
         <ProjectItem
           img={cuatro}
           title="Javascript Quizz"
-          software="REACT JS - VITE - ZUSTAND - TAILWIND"
+          software="ReactJS - Vite - Zustand - Tailwind"
           url="https://miguelcagnate.github.io/jsquizz/"
         />
         <ProjectItem
           img={uno}
           title="MiguelCagnate_Portfolio"
-          software="REACT JS"
+          software="ReactJS - Vite - Tailwind"
           url="https://miguelcanate-portfolio.netlify.app/"
         />
       </div>
