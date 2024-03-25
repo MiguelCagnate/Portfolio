@@ -30,7 +30,7 @@ const Main = () => {
                 // Same substring at the start will only be typed out once, initially
                 "Developer 👨🏽‍💻",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Team Enthusiast 🐱‍👤🐱‍🐉 ",
+                "Team Enthusiast 🐱‍👤👾 ",
                 2000,
                 "Tech seeker 📡 ",
                 2000,

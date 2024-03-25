@@ -11,22 +11,16 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-        convallis elit id erat luctus, sed consequat est pellentesque. Vivamus
-        tincidunt vel sem ut molestie. Ut a quam elit. Pellentesque elit mi,
-        malesuada vitae.
+        Welcome to my portfolio! Here, you will discover the diverse projects I
+        have crafted both solo and collaboratively as a Full-Stack developer.
+        From innovative solo ventures to dynamic team efforts, each project
+        showcases my skills and passion for creating impactful solutions.
       </p>
       <div className="grid sm:grid-cols-2 gap-6 image-rendering={pixelated}">
         <ProjectItem
-          img={dos}
-          title="Burger Landing Page"
-          software="Html - Css"
-          url="https://bestburguersbarcelona.netlify.app/"
-        />
-        <ProjectItem
           img={tres}
           title="Migramix Website"
-          software="ReactJS - Vite - NextJS - Tailwind"
+          software="ReactJS - Vite - NextJS - Tailwind - MySQL"
           url="https://migramix.migracode.org/"
         />
         <ProjectItem
@@ -34,6 +28,13 @@ const Projects = () => {
           title="Javascript Quizz"
           software="ReactJS - Vite - Zustand - Tailwind"
           url="https://miguelcagnate.github.io/jsquizz/"
+        />
+
+        <ProjectItem
+          img={dos}
+          title="Burger Landing Page"
+          software="Html - Css"
+          url="https://bestburguersbarcelona.netlify.app/"
         />
         <ProjectItem
           img={uno}

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const WorkItem = ({ year, title, duration, details }) => {
+const WorkItem = ({ year, title, company, duration, details }) => {
   return (
     <ol className="flex flex-col md:flex-row relative ">
       <li className="mb-10 ml-4">
@@ -10,6 +10,9 @@ const WorkItem = ({ year, title, duration, details }) => {
             {year}
           </span>
           <span className="text-lg font-semibold text-[#001b5e]">{title}</span>
+          <span className="text-lg font-semibold text-[#213464]">
+            {company}
+          </span>
           <span className="my-1 text-sm font-normal leading-none text-stone-400">
             {duration}
           </span>
@@ -22,6 +25,7 @@ const WorkItem = ({ year, title, duration, details }) => {
 WorkItem.propTypes = {
   year: PropTypes.number.isRequired, // Assuming year is a number
   title: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
   duration: PropTypes.string.isRequired,
   details: PropTypes.string.isRequired,
 };
