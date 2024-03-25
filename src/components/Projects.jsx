@@ -21,18 +21,26 @@ const Projects = () => {
           img={dos}
           title="Burger Landing Page"
           software="HTML - CSS"
+          url="https://bestburguersbarcelona.netlify.app/"
         />
         <ProjectItem
           img={tres}
           title="Migramix Website"
           software="REACT JS - VITE - NEXT JS - TAILWIND"
+          url="https://migramix.migracode.org/"
         />
         <ProjectItem
           img={cuatro}
           title="Javascript Quizz"
           software="REACT JS - VITE - ZUSTAND - TAILWIND"
+          url="https://miguelcagnate.github.io/jsquizz/"
         />
-        <ProjectItem img={uno} title="Mi Pueblito App" software="REACT JS"/>
+        <ProjectItem
+          img={uno}
+          title="MiguelCagnate_Portfolio"
+          software="REACT JS"
+          url="https://miguelcanate-portfolio.netlify.app/"
+        />
       </div>
     </div>
   );

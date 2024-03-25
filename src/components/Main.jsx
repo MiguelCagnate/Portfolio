@@ -10,6 +10,7 @@ const Main = () => {
         className="w-full h-screen object-cover scale-x-[-1]}"
         src={whitebg}
         alt="white background"
+        loading="lazy"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/70">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center">
@@ -20,10 +21,7 @@ const Main = () => {
             className="w-6/12 p-3 m-3 rounded-r-full hover:rounded-2xl"
             src={profilepic}
             alt="profile picture"
-            // style={{
-            //   maskImage:
-            //     "linear-gradient(to bottom, transparent, rgba(0,0,0,1.0) 30px, rgba(0,0,0,0.5) 95%, transparent 100%)",
-            // }}
+            loading="lazy"
           />
           <h2 className="flex sm:text 3xl text-2xl pt-4 text-gray-800">
             I`m a
