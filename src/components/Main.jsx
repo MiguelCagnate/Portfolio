@@ -1,7 +1,7 @@
 import whitebg from "../assets/whitebg.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import profilepic from "../../public/profilepic.jpg";
+import profilepic from "/profilepic.jpg";
 
 const Main = () => {
   return (
